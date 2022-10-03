@@ -1,7 +1,66 @@
-﻿DiziEx2();
-DiziEx();
-ReverseString();
-FindTotalWorldAndLetters();
+﻿using System.Collections;
+
+
+
+//List oluşturma
+List<int> DenemeListesi = new List<int>();
+
+
+
+
+
+
+
+//Array oluşturma
+
+string yazi = "Bugün hava çok güzel değil gibi görünüyor.";
+string yazi2 = yazi.Substring(0, yazi.Length - 1);
+Console.WriteLine(yazi2);
+
+string[] kelimeler = yazi2.Split(' ');
+for (int i = 0; i < kelimeler.Length; i++)
+{
+    Console.WriteLine(kelimeler[i]);
+}
+
+Console.WriteLine("Yazı toplam {0} kelimedir.", kelimeler.Length);
+
+
+
+
+//ArrayList oluşturma
+ArrayList arrayList = new ArrayList();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
